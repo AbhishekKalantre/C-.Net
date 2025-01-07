@@ -1,0 +1,215 @@
+﻿namespace MCA_Student_App
+{
+    partial class frm_Student_list
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_LogOut = new System.Windows.Forms.Button();
+            this.lbl_Student_List = new System.Windows.Forms.Label();
+            this.dgv_Student_List = new System.Windows.Forms.DataGridView();
+            this.btn_Add_New_Student = new System.Windows.Forms.Button();
+            this.dataSet3 = new MCA_Student_App.DataSet3();
+            this.studentDetailsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.student_DetailsTableAdapter = new MCA_Student_App.DataSet3TableAdapters.Student_DetailsTableAdapter();
+            this.rollNoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.mobileNoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dOBDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.courseDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Student_List)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSet3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.studentDetailsBindingSource)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.CadetBlue;
+            this.panel1.Controls.Add(this.btn_LogOut);
+            this.panel1.Controls.Add(this.lbl_Student_List);
+            this.panel1.Location = new System.Drawing.Point(5, 4);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1065, 100);
+            this.panel1.TabIndex = 2;
+            // 
+            // btn_LogOut
+            // 
+            this.btn_LogOut.BackColor = System.Drawing.Color.Crimson;
+            this.btn_LogOut.Font = new System.Drawing.Font("Sanskrit Text", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_LogOut.ForeColor = System.Drawing.Color.RosyBrown;
+            this.btn_LogOut.Location = new System.Drawing.Point(872, 9);
+            this.btn_LogOut.Name = "btn_LogOut";
+            this.btn_LogOut.Size = new System.Drawing.Size(172, 80);
+            this.btn_LogOut.TabIndex = 10;
+            this.btn_LogOut.Text = "LogOut";
+            this.btn_LogOut.UseVisualStyleBackColor = false;
+            this.btn_LogOut.Click += new System.EventHandler(this.btn_LogOut_Click);
+            // 
+            // lbl_Student_List
+            // 
+            this.lbl_Student_List.AutoSize = true;
+            this.lbl_Student_List.Font = new System.Drawing.Font("MingLiU_MSCS-ExtB", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Student_List.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lbl_Student_List.Location = new System.Drawing.Point(335, 37);
+            this.lbl_Student_List.Name = "lbl_Student_List";
+            this.lbl_Student_List.Size = new System.Drawing.Size(283, 43);
+            this.lbl_Student_List.TabIndex = 0;
+            this.lbl_Student_List.Text = "Student List";
+            // 
+            // dgv_Student_List
+            // 
+            this.dgv_Student_List.AllowUserToAddRows = false;
+            this.dgv_Student_List.AllowUserToDeleteRows = false;
+            this.dgv_Student_List.AutoGenerateColumns = false;
+            this.dgv_Student_List.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_Student_List.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.rollNoDataGridViewTextBoxColumn,
+            this.nameDataGridViewTextBoxColumn,
+            this.mobileNoDataGridViewTextBoxColumn,
+            this.dOBDataGridViewTextBoxColumn,
+            this.courseDataGridViewTextBoxColumn});
+            this.dgv_Student_List.DataSource = this.studentDetailsBindingSource;
+            this.dgv_Student_List.Location = new System.Drawing.Point(7, 109);
+            this.dgv_Student_List.Name = "dgv_Student_List";
+            this.dgv_Student_List.ReadOnly = true;
+            this.dgv_Student_List.RowHeadersWidth = 51;
+            this.dgv_Student_List.RowTemplate.Height = 24;
+            this.dgv_Student_List.Size = new System.Drawing.Size(1068, 475);
+            this.dgv_Student_List.TabIndex = 3;
+            // 
+            // btn_Add_New_Student
+            // 
+            this.btn_Add_New_Student.BackColor = System.Drawing.Color.Goldenrod;
+            this.btn_Add_New_Student.Font = new System.Drawing.Font("MingLiU_MSCS-ExtB", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Add_New_Student.ForeColor = System.Drawing.Color.Maroon;
+            this.btn_Add_New_Student.Location = new System.Drawing.Point(378, 619);
+            this.btn_Add_New_Student.Name = "btn_Add_New_Student";
+            this.btn_Add_New_Student.Size = new System.Drawing.Size(285, 59);
+            this.btn_Add_New_Student.TabIndex = 7;
+            this.btn_Add_New_Student.Text = "Add New Student";
+            this.btn_Add_New_Student.UseVisualStyleBackColor = false;
+            this.btn_Add_New_Student.Click += new System.EventHandler(this.btn_Add_New_Student_Click);
+            // 
+            // dataSet3
+            // 
+            this.dataSet3.DataSetName = "DataSet3";
+            this.dataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // studentDetailsBindingSource
+            // 
+            this.studentDetailsBindingSource.DataMember = "Student_Details";
+            this.studentDetailsBindingSource.DataSource = this.dataSet3;
+            // 
+            // student_DetailsTableAdapter
+            // 
+            this.student_DetailsTableAdapter.ClearBeforeFill = true;
+            // 
+            // rollNoDataGridViewTextBoxColumn
+            // 
+            this.rollNoDataGridViewTextBoxColumn.DataPropertyName = "Roll_No";
+            this.rollNoDataGridViewTextBoxColumn.HeaderText = "Roll_No";
+            this.rollNoDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.rollNoDataGridViewTextBoxColumn.Name = "rollNoDataGridViewTextBoxColumn";
+            this.rollNoDataGridViewTextBoxColumn.ReadOnly = true;
+            this.rollNoDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // nameDataGridViewTextBoxColumn
+            // 
+            this.nameDataGridViewTextBoxColumn.DataPropertyName = "Name";
+            this.nameDataGridViewTextBoxColumn.HeaderText = "Name";
+            this.nameDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
+            this.nameDataGridViewTextBoxColumn.ReadOnly = true;
+            this.nameDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // mobileNoDataGridViewTextBoxColumn
+            // 
+            this.mobileNoDataGridViewTextBoxColumn.DataPropertyName = "Mobile_No";
+            this.mobileNoDataGridViewTextBoxColumn.HeaderText = "Mobile_No";
+            this.mobileNoDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.mobileNoDataGridViewTextBoxColumn.Name = "mobileNoDataGridViewTextBoxColumn";
+            this.mobileNoDataGridViewTextBoxColumn.ReadOnly = true;
+            this.mobileNoDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // dOBDataGridViewTextBoxColumn
+            // 
+            this.dOBDataGridViewTextBoxColumn.DataPropertyName = "D_O_B_";
+            this.dOBDataGridViewTextBoxColumn.HeaderText = "D_O_B_";
+            this.dOBDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.dOBDataGridViewTextBoxColumn.Name = "dOBDataGridViewTextBoxColumn";
+            this.dOBDataGridViewTextBoxColumn.ReadOnly = true;
+            this.dOBDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // courseDataGridViewTextBoxColumn
+            // 
+            this.courseDataGridViewTextBoxColumn.DataPropertyName = "Course";
+            this.courseDataGridViewTextBoxColumn.HeaderText = "Course";
+            this.courseDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.courseDataGridViewTextBoxColumn.Name = "courseDataGridViewTextBoxColumn";
+            this.courseDataGridViewTextBoxColumn.ReadOnly = true;
+            this.courseDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // frm_Student_list
+            // 
+            this.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.ClientSize = new System.Drawing.Size(1082, 703);
+            this.Controls.Add(this.btn_Add_New_Student);
+            this.Controls.Add(this.dgv_Student_List);
+            this.Controls.Add(this.panel1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "frm_Student_list";
+            this.Text = "Student List";
+            this.Load += new System.EventHandler(this.frm_Student_list_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Student_List)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSet3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.studentDetailsBindingSource)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button btn_LogOut;
+        protected System.Windows.Forms.Label lbl_Student_List;
+        private System.Windows.Forms.DataGridView dgv_Student_List;
+        private System.Windows.Forms.Button btn_Add_New_Student;
+        private DataSet3 dataSet3;
+        private System.Windows.Forms.BindingSource studentDetailsBindingSource;
+        private DataSet3TableAdapters.Student_DetailsTableAdapter student_DetailsTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn rollNoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn mobileNoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dOBDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn courseDataGridViewTextBoxColumn;
+    }
+}
