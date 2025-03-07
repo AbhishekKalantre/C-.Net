@@ -1,0 +1,10 @@
+C:\Users\Abhishek Singh\Desktop\c#.net\Assignment-5\Employee_Details\bin\Debug\Employee_Details.exe.config
+C:\Users\Abhishek Singh\Desktop\c#.net\Assignment-5\Employee_Details\bin\Debug\Employee_Details.exe
+C:\Users\Abhishek Singh\Desktop\c#.net\Assignment-5\Employee_Details\bin\Debug\Employee_Details.pdb
+C:\Users\Abhishek Singh\Desktop\c#.net\Assignment-5\Employee_Details\obj\Debug\Employee_Details.csproj.AssemblyReference.cache
+C:\Users\Abhishek Singh\Desktop\c#.net\Assignment-5\Employee_Details\obj\Debug\Employee_Details.frm_Employee_Details.resources
+C:\Users\Abhishek Singh\Desktop\c#.net\Assignment-5\Employee_Details\obj\Debug\Employee_Details.Properties.Resources.resources
+C:\Users\Abhishek Singh\Desktop\c#.net\Assignment-5\Employee_Details\obj\Debug\Employee_Details.csproj.GenerateResource.cache
+C:\Users\Abhishek Singh\Desktop\c#.net\Assignment-5\Employee_Details\obj\Debug\Employee_Details.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Singh\Desktop\c#.net\Assignment-5\Employee_Details\obj\Debug\Employee_Details.exe
+C:\Users\Abhishek Singh\Desktop\c#.net\Assignment-5\Employee_Details\obj\Debug\Employee_Details.pdb
